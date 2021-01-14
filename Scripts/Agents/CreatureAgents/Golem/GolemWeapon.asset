@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: GolemWeapon
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: Golem
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: Golem
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 0}
+  characterState: {fileID: 11400000, guid: 2b4567371c3895a4c9814c6e91e4128f, type: 2}
+  characterMask: {fileID: 0}
+  prefab: {fileID: 1821268801347790198, guid: 9aa07404153c35e488eb04fb0fd1ccea, type: 3}
+  attachment: -1
+  positionOffset: {x: 0, y: 1.026, z: 0.716}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
+  audioImpactKnockback: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f,
+    type: 3}
+  groundHitReactionsFront:
+  - {fileID: 11400000, guid: 6d0a32d1ac13b1e49ad449468f516814, type: 2}
+  groundHitReactionsBehind:
+  - {fileID: 11400000, guid: 6d0a32d1ac13b1e49ad449468f516814, type: 2}
+  airborneHitReactionsFront:
+  - {fileID: 11400000, guid: 6d0a32d1ac13b1e49ad449468f516814, type: 2}
+  airborneHitReactionsBehind:
+  - {fileID: 11400000, guid: 6d0a32d1ac13b1e49ad449468f516814, type: 2}
+  knockbackReaction:
+  - {fileID: 11400000, guid: 6d0a32d1ac13b1e49ad449468f516814, type: 2}
+  combos: []
+  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}
+  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}

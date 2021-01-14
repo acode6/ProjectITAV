@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: Melee Weapon
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: UTestSword
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: Weapon Description
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 0}
+  characterState: {fileID: 11400000, guid: 0c9c5dc941288cb42bed827a69b7ae75, type: 2}
+  characterMask: {fileID: 0}
+  prefab: {fileID: 6127778902043319522, guid: a320d7021534ce2468c2f1efd2c28568, type: 3}
+  attachment: 18
+  positionOffset: {x: 0, y: 0, z: 0}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 0}
+  audioImpactKnockback: {fileID: 0}
+  groundHitReactionsFront:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  groundHitReactionsBehind:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  airborneHitReactionsFront:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  airborneHitReactionsBehind:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  knockbackReaction:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  combos: []
+  prefabImpactNormal: {fileID: 0}
+  prefabImpactKnockback: {fileID: 0}

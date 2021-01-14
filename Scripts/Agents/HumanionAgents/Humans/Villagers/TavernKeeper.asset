@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f3df52ae4eb3848b44ea1e0beefded, type: 3}
+  m_Name: TavernKeeper
+  m_EditorClassIdentifier: 
+  AgentName: TavernKeeper Agent
+  DefaultWeapon: {fileID: 6127778902043319522, guid: 22a4721e0f84de54091327203aa47e46,
+    type: 3}
+  MainWeapon: {fileID: 0}
+  SecondaryWeapon: {fileID: 0}
+  AgentCombatStyle: 0
+  AgentModel: {fileID: 1430396767194642, guid: 624582b3b65da9a45bc1d204b8a69122, type: 3}
+  BabyModel: {fileID: 0}
+  AgentMaterial: {fileID: 0}
+  LocomotionState: {fileID: 0}
+  AgentRenderer: {fileID: 0}
+  InvestigateState: {fileID: 0}
+  BreedingState: {fileID: 0}
+  HidingState: {fileID: 0}
+  RestingState: {fileID: 0}
+  SleepingState: {fileID: 0}
+  DeathState: {fileID: 0}
+  EatingState: {fileID: 0}
+  DrinkingState: {fileID: 0}
+  ChargingState: {fileID: 0}
+  AuraChargeAnim: {fileID: 0}
+  UltimateAttackAnim: {fileID: 0}
+  Agent: {fileID: 0}
+  AgentHealth: 100
+  AgentStamina: 50
+  AgentMana: 20
+  Agentwalkspeed: 2
+  Agentrunspeed: 3
+  AgentAwarenessSensitivity: 9
+  DetectRadius: 30
+  EyeDetectAngle: 115
+  AgentSpecies: 64
+  threatLevel: 1
+  Home: 0
+  Biomes: 0
+  AgentFoes: 8124
+  AgentStartingConfidence: 0
+  AgentConfidenceIncreaseRate: 0.5
+  ConfidenceDecreaseRate: 0.5
+  AgentDamage: 0
+  AgentEvadeChance: 0.1
+  AgentCounterChance: 0.1
+  AgentSkillChance: 0.3
+  LowHealthThreshold: 0
+  CanLockOn: 1
+  CanDodge: 1
+  timeBetweenActionChoices: 0
+  DaysToDeathByHunger: 0
+  DaysToDeathByThirst: 0
+  DaysToReproduceAgain: 0
+  AnimalNeedsCriticalPercent: 0
+  minBreedChance: 0
+  GestationPeriod: 0
+  maxBabies: 0
+  growthRate: 0
+  drinkDuration: 0
+  eatDuration: 0
+  criticalPercent: 0
+  CanHide: 0
+  nocturnalAnimal: 0
+  HideTime: 0
+  maleMaterial: []
+  femaleMaterial: []
+  AgentGoals:
+  - {fileID: 11400000, guid: 726dd0ee88f92a840bb14755f8275f6f, type: 2}
+  AgentActions:
+  - {fileID: 11400000, guid: c25aff7d75929e943a0c8b3c561bdbc9, type: 2}
+  - {fileID: 11400000, guid: 12fc8f1f67423ad4f8343250d9e1ad5b, type: 2}
+  IdleStateActions: []
+  SuspiciousStateActions: []
+  AlertMeleeActions: []
+  AlertRangeActions: []
+  WorkGoal: {fileID: 11400000, guid: 9dfdda72a72c9e743a452f28a9341d13, type: 2}
+  EatGoal: {fileID: 11400000, guid: e73ea4cbc40b7df44a12b0cc07c39ee6, type: 2}
+  RestGoal: {fileID: 11400000, guid: b780efb87becd814288bab9d8bcde4c1, type: 2}
+  HungerNeedIncrease: 0.01
+  WorkNeedIncrease: 0.35
+  RestNeedIncrease: 0.1

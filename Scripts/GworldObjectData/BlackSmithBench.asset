@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769d3bf91c3c8e04ab329b11f076475f, type: 3}
+  m_Name: BlackSmithBench
+  m_EditorClassIdentifier: 
+  ObjectPrimaryFact: 0
+  WObject: 2
+  ObjectFactState: 1
+  CurrentObjectOwner: {fileID: 0}
+  ObjectPriority: 0
+  ObjectUseTime: 10
+  ActionDestination: {fileID: 0}
+  AgentAnim: {fileID: 0}
+  AgentAnimMask: {fileID: 0}
+  AgentState: {fileID: 11400000, guid: e9de12acdda99f44a9b0d96670526e82, type: 2}
+  OwnerObj: {fileID: 0}

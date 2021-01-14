@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f3df52ae4eb3848b44ea1e0beefded, type: 3}
+  m_Name: HumanAgentDataRange
+  m_EditorClassIdentifier: 
+  AgentName: Human Range Agent
+  DefaultWeapon: {fileID: 6127778902043319522, guid: 22a4721e0f84de54091327203aa47e46,
+    type: 3}
+  MainWeapon: {fileID: 6561587299377593416, guid: a53c0adc901ed38429fea278bf7c93c0,
+    type: 3}
+  SecondaryWeapon: {fileID: 0}
+  AgentCombatStyle: 0
+  AgentModel: {fileID: 1764260302743806, guid: b471cf98a9c25634aa2fe225efbf3b2d, type: 3}
+  BabyModel: {fileID: 0}
+  AgentMaterial: {fileID: 0}
+  LocomotionState: {fileID: 0}
+  AgentRenderer: {fileID: 0}
+  InvestigateState: {fileID: 0}
+  BreedingState: {fileID: 0}
+  HidingState: {fileID: 0}
+  RestingState: {fileID: 0}
+  SleepingState: {fileID: 0}
+  DeathState: {fileID: 0}
+  EatingState: {fileID: 0}
+  DrinkingState: {fileID: 0}
+  ChargingState: {fileID: 0}
+  AuraChargeAnim: {fileID: 0}
+  UltimateAttackAnim: {fileID: 0}
+  DodgeForward: {fileID: 0}
+  DodgeBack: {fileID: 7400000, guid: 0e7c4bcb43e085b4797dd049ebbc965f, type: 2}
+  DodgeLeft: {fileID: 7400000, guid: c7fe7d447713dea499b7394d40a02e69, type: 2}
+  DodgeRight: {fileID: 7400000, guid: e1cc808e4bd805b45b88a5f95dcb2038, type: 2}
+  Agent: {fileID: 0}
+  AgentHealth: 150
+  AgentStamina: 50
+  AgentMana: 0
+  Agentwalkspeed: 3
+  Agentrunspeed: 2
+  AgentAwarenessSensitivity: 20
+  DetectRadius: 30
+  EyeDetectAngle: 115
+  AgentSpecies: 64
+  threatLevel: 2
+  Home: 0
+  Biomes: 0
+  AgentFoes: 8124
+  attackDistance: 8
+  dangerDistance: 10
+  trackSpeed: 0.1
+  attackRate: 3
+  attackRateFluctuation: 0
+  seperation: 4
+  AgentStartingConfidence: 0.2
+  AgentConfidenceIncreaseRate: 0.3
+  ConfidenceDecreaseRate: 0.5
+  AgentDamage: 0
+  AgentEvadeChance: 0.1
+  AgentCounterChance: 0.1
+  AgentSkillChance: 0.2
+  LowHealthThreshold: 0
+  CanLockOn: 1
+  CanDodge: 1
+  timeBetweenActionChoices: 0
+  DaysToDeathByHunger: 0
+  DaysToDeathByThirst: 0
+  DaysToReproduceAgain: 0
+  AnimalNeedsCriticalPercent: 0
+  minBreedChance: 0
+  GestationPeriod: 0
+  maxBabies: 0
+  growthRate: 0
+  drinkDuration: 0
+  eatDuration: 0
+  criticalPercent: 0
+  CanHide: 0
+  nocturnalAnimal: 0
+  HideTime: 0
+  maleMaterial: []
+  femaleMaterial: []
+  AgentGoals:
+  - {fileID: 11400000, guid: eb0c352bee6dee94cbd945a33298cc95, type: 2}
+  - {fileID: 11400000, guid: 9b36d575e2a8166428138479303a0906, type: 2}
+  - {fileID: 11400000, guid: 7d99d369ac060c6438159eadfd1a9520, type: 2}
+  - {fileID: 11400000, guid: 1b7e4e5fd2c73ef479faa8aff2bb3975, type: 2}
+  - {fileID: 11400000, guid: 726dd0ee88f92a840bb14755f8275f6f, type: 2}
+  - {fileID: 11400000, guid: e067f06ffdadc1a41bc0b44cbecade90, type: 2}
+  AgentActions:
+  - {fileID: 11400000, guid: e12b384c8bd493c4fb76e5a78e6b62af, type: 2}
+  - {fileID: 11400000, guid: d3463bef15ac36b47b6222976d9ef431, type: 2}
+  - {fileID: 11400000, guid: d5aea8cfd7e147f47820bf7580ce2fe5, type: 2}
+  - {fileID: 11400000, guid: ebece30a573e9594fb4ad6d82833c12b, type: 2}
+  - {fileID: 11400000, guid: 4b3a33f8b94f38f4a9c83cac7a2eaeef, type: 2}
+  - {fileID: 11400000, guid: ac1a02b7aa6d89a4eabd37def490a064, type: 2}
+  - {fileID: 11400000, guid: 3dd1cd940c6b78d44b796c7fcb0f295d, type: 2}
+  - {fileID: 11400000, guid: 7308c052b1046e94e97ef92a64585e8c, type: 2}
+  - {fileID: 11400000, guid: 240099ed0f47c3745a09cc0abe97e70b, type: 2}
+  - {fileID: 11400000, guid: 24d30b41929d19f4f9e9182f6cb7412c, type: 2}
+  - {fileID: 11400000, guid: 8b78b3e023a66844395793e980bb5db4, type: 2}
+  - {fileID: 11400000, guid: 05572a7bd5e9efb448e628bd3bead655, type: 2}
+  - {fileID: 11400000, guid: 96d74250e21ed094aa98e8d62356679c, type: 2}
+  - {fileID: 11400000, guid: b374dd0b357b22d4ea284bf1f952b07d, type: 2}
+  IdleStateActions: []
+  SuspiciousStateActions: []
+  AlertMeleeActions: []
+  AlertRangeActions: []
+  WorkGoal: {fileID: 11400000, guid: 9dfdda72a72c9e743a452f28a9341d13, type: 2}
+  EatGoal: {fileID: 11400000, guid: e73ea4cbc40b7df44a12b0cc07c39ee6, type: 2}
+  RestGoal: {fileID: 11400000, guid: b780efb87becd814288bab9d8bcde4c1, type: 2}
+  HungerNeedIncrease: 0
+  WorkNeedIncrease: 0
+  RestNeedIncrease: 0

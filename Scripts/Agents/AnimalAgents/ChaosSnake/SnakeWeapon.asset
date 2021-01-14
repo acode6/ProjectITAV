@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: SnakeWeapon
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: Snake Weapon
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: 
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 0}
+  characterState: {fileID: 11400000, guid: 3e2119ff2eae9714994c6f875ef73139, type: 2}
+  characterMask: {fileID: 0}
+  prefab: {fileID: 3392889291898277932, guid: 9e8899ae8b00202418084e1a5a881e23, type: 3}
+  attachment: -1
+  positionOffset: {x: 0, y: 1, z: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
+  audioImpactKnockback: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f,
+    type: 3}
+  groundHitReactionsFront:
+  - {fileID: 11400000, guid: f873461e07d217a41b46ccb9836fe4a3, type: 2}
+  groundHitReactionsBehind:
+  - {fileID: 11400000, guid: f873461e07d217a41b46ccb9836fe4a3, type: 2}
+  airborneHitReactionsFront:
+  - {fileID: 11400000, guid: f873461e07d217a41b46ccb9836fe4a3, type: 2}
+  airborneHitReactionsBehind:
+  - {fileID: 11400000, guid: f873461e07d217a41b46ccb9836fe4a3, type: 2}
+  knockbackReaction:
+  - {fileID: 11400000, guid: f873461e07d217a41b46ccb9836fe4a3, type: 2}
+  combos:
+  - combo: 00000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 902e9db53564d4b4ca9a2515beae5d5e, type: 2}
+    isEnabled: 1
+  - combo: 01000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 34be83384b8fce94e9c7b511727a407c, type: 2}
+    isEnabled: 1
+  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}
+  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}

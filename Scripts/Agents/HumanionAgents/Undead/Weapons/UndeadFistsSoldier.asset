@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174e3c307f7474e6fa3b8acd263a757e, type: 3}
+  m_Name: UndeadFistsSoldier
+  m_EditorClassIdentifier: 
+  weaponName:
+    content: Undead Fists
+    postProcess: 0
+    translationID: 0
+  weaponDescription:
+    content: 
+    postProcess: 0
+    translationID: 0
+  defaultShield: {fileID: 0}
+  characterState: {fileID: 11400000, guid: 8a209b9c12880134ca879cc37db02a35, type: 2}
+  characterMask: {fileID: 31900000, guid: ab6263dd525ca4cd48e437ff0cae30f6, type: 2}
+  prefab: {fileID: 2699228519621451586, guid: 322494315118fd94f9098d56a43eb374, type: 3}
+  attachment: -1
+  positionOffset: {x: 0, y: 1, z: 0.8}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  audioSheathe: {fileID: 0}
+  audioDraw: {fileID: 0}
+  audioImpactNormal: {fileID: 8300000, guid: 00f967e54adc343b1a07b49f4b7514c7, type: 3}
+  audioImpactKnockback: {fileID: 8300000, guid: defd2ad8bedbe453f94c94c4590bcf2f,
+    type: 3}
+  groundHitReactionsFront:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  groundHitReactionsBehind:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  airborneHitReactionsFront:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  airborneHitReactionsBehind:
+  - {fileID: 11400000, guid: 3861e79f045a84a47b6d11efa49a8527, type: 2}
+  knockbackReaction:
+  - {fileID: 11400000, guid: bf02fc5927cd97744b493b5af379c076, type: 2}
+  combos:
+  - combo: 00000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 7ddfd16689bd0ab4ab5a543b052b2ef0, type: 2}
+    isEnabled: 0
+  - combo: 0000000000000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 3ab8fd9ba75d0a54cb357a11ce75870d, type: 2}
+    isEnabled: 0
+  - combo: 04000000
+    condition: 0
+    meleeClip: {fileID: 11400000, guid: 8b873fa02dbc09249941464b964268f3, type: 2}
+    isEnabled: 0
+  prefabImpactNormal: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}
+  prefabImpactKnockback: {fileID: 4329036519906242892, guid: 9408437927dbd43d6bca1f23faa3aba8,
+    type: 3}

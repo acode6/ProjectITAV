@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f3df52ae4eb3848b44ea1e0beefded, type: 3}
+  m_Name: RabbitAgentData
+  m_EditorClassIdentifier: 
+  AgentName: Rabbit
+  DefaultWeapon: {fileID: 0}
+  MainWeapon: {fileID: 0}
+  SecondaryWeapon: {fileID: 0}
+  AgentModel: {fileID: 1335745780718190, guid: 01173114f5c6b34448f88a989cb04b6e, type: 3}
+  BabyModel: {fileID: 1721392763167632, guid: 88e1ece750084a54fbccf75e93367db1, type: 3}
+  AgentMaterial: {fileID: 0}
+  LocomotionState: {fileID: 11400000, guid: 1d81450a2adcf5a498473d2d616b7662, type: 2}
+  AgentRenderer: {fileID: 0}
+  InvestigateState: {fileID: 0}
+  BreedingState: {fileID: 11400000, guid: d8e4d347c98743847ba8bb21ad4aef1b, type: 2}
+  HidingState: {fileID: 11400000, guid: 2af5147744706dd4b8081b0240652ae4, type: 2}
+  RestingState: {fileID: 11400000, guid: e6f3cf5d86a35d44e9e0ef8bd597ed82, type: 2}
+  SleepingState: {fileID: 11400000, guid: a91ce23682557624c859634579e4b2d1, type: 2}
+  DeathState: {fileID: 11400000, guid: e3ccc7176f1a70341b1e993faeb1448b, type: 2}
+  EatingState: {fileID: 0}
+  DrinkingState: {fileID: 0}
+  AuraChargeAnim: {fileID: 0}
+  UltimateAttackAnim: {fileID: 0}
+  Agent: {fileID: 0}
+  AgentHealth: 10
+  AgentStamina: 2
+  AgentMana: 0
+  Agentwalkspeed: 1
+  Agentrunspeed: 2
+  AgentAwarenessSensitivity: 5
+  AgentSpecies: 4
+  threatLevel: 0
+  Home: 23
+  Biomes: 2
+  AgentFoes: 2
+  AgentStartingConfidence: 0
+  AgentConfidenceIncreaseRate: 0
+  ConfidenceDecreaseRate: 0
+  AgentDamage: 0
+  AgentEvadeChance: 0
+  AgentCounterChance: 0
+  AgentSkillChance: 0
+  LowHealthThreshold: 0
+  timeBetweenActionChoices: 1
+  DaysToDeathByHunger: 7
+  DaysToDeathByThirst: 2
+  DaysToReproduceAgain: 1
+  AnimalNeedsCriticalPercent: 0.7
+  minBreedChance: 0.3
+  GestationPeriod: 10
+  maxBabies: 3
+  growthRate: 1
+  drinkDuration: 6
+  eatDuration: 3
+  criticalPercent: 0.7
+  CanHide: 1
+  nocturnalAnimal: 0
+  HideTime: 10
+  maleMaterial:
+  - {fileID: 2100000, guid: 551dc3600b2f9d844b70556def40a86e, type: 2}
+  - {fileID: 2100000, guid: d7ae3e0224cd7e9428a9b4e71623267f, type: 2}
+  - {fileID: 2100000, guid: d57784a6ef7831d43aa9a63fc6150df8, type: 2}
+  femaleMaterial:
+  - {fileID: 2100000, guid: d7ae3e0224cd7e9428a9b4e71623267f, type: 2}
+  - {fileID: 2100000, guid: 6ad5c1e796a01de40bdaec17d307fec4, type: 2}
+  - {fileID: 2100000, guid: c10d726f2617d124d8f3b21788f86ae1, type: 2}
+  AgentGoals:
+  - {fileID: 11400000, guid: 726dd0ee88f92a840bb14755f8275f6f, type: 2}
+  - {fileID: 11400000, guid: fa3b5b193044b2d4994e5b92658262c1, type: 2}
+  - {fileID: 11400000, guid: 6bddac76f6f593b4d9c6013382567f4a, type: 2}
+  - {fileID: 11400000, guid: 1b7e4e5fd2c73ef479faa8aff2bb3975, type: 2}
+  - {fileID: 11400000, guid: e067f06ffdadc1a41bc0b44cbecade90, type: 2}
+  AgentActions:
+  - {fileID: 11400000, guid: 4e3697d948c04b84b902a68423dbcf3c, type: 2}
+  - {fileID: 11400000, guid: 7273ce9468c856046ae1baed8e9eb1b8, type: 2}
+  - {fileID: 11400000, guid: bb690c5fe1c82d14ba14184eeacbf236, type: 2}
+  - {fileID: 11400000, guid: ac1a02b7aa6d89a4eabd37def490a064, type: 2}
+  - {fileID: 11400000, guid: ebece30a573e9594fb4ad6d82833c12b, type: 2}
+  - {fileID: 11400000, guid: b374dd0b357b22d4ea284bf1f952b07d, type: 2}
+  IdleStateActions: []
+  SuspiciousStateActions: []
+  AlertMeleeActions: []
+  AlertRangeActions: []

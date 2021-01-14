@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f3df52ae4eb3848b44ea1e0beefded, type: 3}
+  m_Name: BanditMageAgent
+  m_EditorClassIdentifier: 
+  AgentName: Bandit Mage
+  DefaultWeapon: {fileID: 6127778902043319522, guid: 22a4721e0f84de54091327203aa47e46,
+    type: 3}
+  MainWeapon: {fileID: 1821268801347790198, guid: 132b87c64c637c04989706f01e3662f7,
+    type: 3}
+  SecondaryWeapon: {fileID: 0}
+  AgentModel: {fileID: 1996767962855262, guid: 700ee4f231080c344834e4d9dd8d838d, type: 3}
+  AgentModels: []
+  BabyModel: {fileID: 0}
+  AgentMaterial: {fileID: 0}
+  LocomotionState: {fileID: 0}
+  AgentRenderer: {fileID: 0}
+  InvestigateState: {fileID: 0}
+  BreedingState: {fileID: 0}
+  HidingState: {fileID: 0}
+  RestingState: {fileID: 0}
+  SleepingState: {fileID: 0}
+  DeathState: {fileID: 0}
+  DeathStates: []
+  EatingState: {fileID: 0}
+  DrinkingState: {fileID: 0}
+  ChargingState: {fileID: 0}
+  AuraChargeAnim: {fileID: -203655887218126122, guid: 71b11c2c3c4947a47990be384e88b689,
+    type: 3}
+  UltimateAttackAnim: {fileID: -203655887218126122, guid: 497a95a8c6193ae4a9ce3d8b3624a668,
+    type: 3}
+  DodgeForward: {fileID: 0}
+  DodgeBack: {fileID: 0}
+  DodgeLeft: {fileID: 0}
+  DodgeRight: {fileID: 0}
+  Biomes: 0
+  AgentFoes: 176
+  Agent: {fileID: 0}
+  AgentHealth: 100
+  AgentStamina: 50
+  AgentMana: 100
+  Agentwalkspeed: 3
+  Agentrunspeed: 4
+  AgentAwarenessSensitivity: 20
+  DetectRadius: 25
+  EyeDetectAngle: 115
+  AgentSpecies: 64
+  threatLevel: 2
+  Home: 0
+  attackDistance: 10
+  dangerDistance: 15
+  trackSpeed: 0.1
+  attackRate: 3
+  attackRateFluctuation: 0
+  seperation: 0
+  AgentStartingConfidence: 0.5
+  AgentConfidenceIncreaseRate: 0.5
+  ConfidenceDecreaseRate: 0.5
+  AgentBaseDamage: 0
+  AgentBaseDefense: 0
+  AgentEvadeChance: 0.0015
+  AgentCounterChance: 0.5
+  AgentSkillChance: 0.5
+  AgentLungeChance: 0
+  LowHealthThreshold: -10
+  CanLockOn: 1
+  CanDodge: 1
+  AvoidOthers: 1
+  timeBetweenActionChoices: 1
+  DaysToDeathByHunger: 1
+  DaysToDeathByThirst: 1
+  DaysToReproduceAgain: 1
+  AnimalNeedsCriticalPercent: 0.7
+  minBreedChance: 0.3
+  GestationPeriod: 10
+  maxBabies: 3
+  growthRate: 1
+  drinkDuration: 6
+  eatDuration: 3
+  criticalPercent: 0.7
+  CanHide: 0
+  nocturnalAnimal: 0
+  HideTime: 5
+  maleMaterial: []
+  femaleMaterial: []
+  AgentGoals:
+  - {fileID: 11400000, guid: 1b7e4e5fd2c73ef479faa8aff2bb3975, type: 2}
+  AgentActions:
+  - {fileID: 11400000, guid: f52df69d97508e149900dd2b64812e64, type: 2}
+  - {fileID: 11400000, guid: 515b4205b6fbac347a1a263de412badd, type: 2}
+  - {fileID: 11400000, guid: ac1a02b7aa6d89a4eabd37def490a064, type: 2}
+  - {fileID: 11400000, guid: 3dd1cd940c6b78d44b796c7fcb0f295d, type: 2}
+  - {fileID: 11400000, guid: 2c9f45e7f6f22884a872b96717a65567, type: 2}
+  WorkGoal: {fileID: 0}
+  EatGoal: {fileID: 0}
+  RestGoal: {fileID: 0}
+  AttackGoal: {fileID: 11400000, guid: eb0c352bee6dee94cbd945a33298cc95, type: 2}
+  DefendGoal: {fileID: 11400000, guid: 7d99d369ac060c6438159eadfd1a9520, type: 2}
+  HungerNeedIncrease: 0
+  WorkNeedIncrease: 0
+  RestNeedIncrease: 0

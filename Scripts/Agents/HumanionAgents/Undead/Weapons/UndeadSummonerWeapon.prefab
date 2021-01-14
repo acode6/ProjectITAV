@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6127778902043319522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6127778902043319523}
+  - component: {fileID: 6127778902043319520}
+  - component: {fileID: -1979869748607509819}
+  - component: {fileID: 5686073709758327831}
+  - component: {fileID: 8909103767640014892}
+  - component: {fileID: 1180669351}
+  - component: {fileID: 1180669352}
+  m_Layer: 0
+  m_Name: UndeadSummonerWeapon
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6127778902043319523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.53, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6127778902043319520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ce5ca9303944be08d0e95a6aab1c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captureHits: 2
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  segmentResolution: 0.1
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 1.12}
+  radius: 0.5
+  offset: {x: 0, y: 0, z: 0}
+  boxInterframePredictions: 5
+  boxCenter: {x: 0, y: 0, z: 0.64}
+  boxSize: {x: 0.17, y: 0.19, z: 0.99}
+  debugMode: 0
+  EventAttackStart:
+    m_PersistentCalls:
+      m_Calls: []
+  EventAttackEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  EventAttackActivation:
+    m_PersistentCalls:
+      m_Calls: []
+  EventAttackRecovery:
+    m_PersistentCalls:
+      m_Calls: []
+  enableWeaponTrail: 1
+  trailMaterial: {fileID: 2100000, guid: bd5ef410d675441c78ce115ba4c6e478, type: 2}
+  trailGranularity: 60
+  trailDuration: 0.5
+--- !u!114 &-1979869748607509819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d5a50368374438dbff3af09a8fefb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions: []
+  executingIndex: -1
+  isExecuting: 0
+--- !u!114 &5686073709758327831
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be369e1556c34293bad9145865dddfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 0}
+  otherCollider: {fileID: 0}
+  storeSelf:
+    variableType: 0
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  storeCollider:
+    variableType: 0
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+--- !u!135 &8909103767640014892
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.42
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1180669351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6b05c96397620d49a247b42bef32d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponType: 0
+  GCWeapon: {fileID: 11400000, guid: 450f7e93a0a57ad49bd3e9406a2a505e, type: 2}
+  GCRWeapon: {fileID: 0}
+  GCCWeapon: {fileID: 0}
+  GCCRWeapon: {fileID: 0}
+  meleeAttackDistance: 3
+  rangeAttackDistance: 6
+  WeaponShootAnim: {fileID: 0}
+  WeaponAnimShootMask: {fileID: 0}
+  WeaponAnimMask: {fileID: 0}
+  WandAura: {fileID: 0}
+  WandHealPrefab: {fileID: 0}
+  WandDashTeleport: {fileID: 1387074958846872, guid: b044747ba241f804cbb887ff224f341b,
+    type: 3}
+  BasicSpell: {fileID: 0}
+  ChargedBasicSpell: {fileID: 0}
+  CrowdControllSpell: {fileID: 0}
+  UltimateSpell: {fileID: 0}
+  SummoningSpell: {fileID: 0}
+--- !u!114 &1180669352
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127778902043319522}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be369e1556c34293bad9145865dddfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 0}
+  otherCollider: {fileID: 0}
+  storeSelf:
+    variableType: 0
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+  storeCollider:
+    variableType: 0
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0

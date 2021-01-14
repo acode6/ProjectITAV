@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f3df52ae4eb3848b44ea1e0beefded, type: 3}
+  m_Name: WolfAgentData
+  m_EditorClassIdentifier: 
+  AgentName: Wolf
+  DefaultWeapon: {fileID: 6127778902043319522, guid: dc232632c3805834e9c73a360832071d,
+    type: 3}
+  MainWeapon: {fileID: 6127778902043319522, guid: d3f94c7d3af06d44eb2783a06951543d,
+    type: 3}
+  SecondaryWeapon: {fileID: 0}
+  AgentCombatStyle: 0
+  AgentModel: {fileID: 1674863437055274, guid: 009bfdcbf43056e4baacce4494b47114, type: 3}
+  BabyModel: {fileID: 0}
+  AgentMaterial: {fileID: 0}
+  LocomotionState: {fileID: 11400000, guid: 85c5b82d3b0028e4ba0d21dc2f6f6985, type: 2}
+  AgentRenderer: {fileID: 0}
+  InvestigateState: {fileID: 0}
+  BreedingState: {fileID: 0}
+  HidingState: {fileID: 0}
+  RestingState: {fileID: 11400000, guid: e6e53a52076a21846afe3793dcd1aee0, type: 2}
+  SleepingState: {fileID: 11400000, guid: 5e0e58e9d9f6f574290fca2f3ec75f8d, type: 2}
+  DeathState: {fileID: 11400000, guid: 9f5f6448d318da5429d6259ae014e8f1, type: 2}
+  EatingState: {fileID: 11400000, guid: 7cf0fbafea038e94bab417aa1522c242, type: 2}
+  DrinkingState: {fileID: 0}
+  ChargingState: {fileID: 0}
+  AuraChargeAnim: {fileID: 0}
+  UltimateAttackAnim: {fileID: 0}
+  DodgeForward: {fileID: 0}
+  DodgeBack: {fileID: 0}
+  DodgeLeft: {fileID: 0}
+  DodgeRight: {fileID: 0}
+  Agent: {fileID: 0}
+  AgentHealth: 50
+  AgentStamina: 10
+  AgentMana: 0
+  Agentwalkspeed: 3
+  Agentrunspeed: 4
+  AgentAwarenessSensitivity: 20
+  DetectRadius: 30
+  EyeDetectAngle: 120
+  AgentSpecies: 8
+  threatLevel: 1
+  Home: 24
+  Biomes: 2
+  AgentFoes: 8404
+  attackDistance: 2.5
+  dangerDistance: 10
+  trackSpeed: 0.01
+  attackRate: 1
+  attackRateFluctuation: 0
+  seperation: 4
+  AgentStartingConfidence: 0
+  AgentConfidenceIncreaseRate: 0.2
+  ConfidenceDecreaseRate: 0.2
+  AgentDamage: 0
+  AgentEvadeChance: 0
+  AgentCounterChance: 0
+  AgentSkillChance: 0
+  LowHealthThreshold: 0
+  CanLockOn: 0
+  CanDodge: 0
+  timeBetweenActionChoices: 1
+  DaysToDeathByHunger: 1
+  DaysToDeathByThirst: 3
+  DaysToReproduceAgain: 3
+  AnimalNeedsCriticalPercent: 0.7
+  minBreedChance: 0.3
+  GestationPeriod: 10
+  maxBabies: 3
+  growthRate: 1
+  drinkDuration: 6
+  eatDuration: 3
+  criticalPercent: 0.7
+  CanHide: 0
+  nocturnalAnimal: 0
+  HideTime: 5
+  maleMaterial:
+  - {fileID: 2100000, guid: 9e53f96e4237bfe4eb2ceae2a9a73f8b, type: 2}
+  - {fileID: 2100000, guid: 30b0178a1e3c4a74192a846f88785afa, type: 2}
+  femaleMaterial:
+  - {fileID: 2100000, guid: 5199a3ed91250cb4b8fff2c00648fcf3, type: 2}
+  - {fileID: 2100000, guid: 33046e0d242a2dc45927441b8d786b6a, type: 2}
+  AgentGoals:
+  - {fileID: 11400000, guid: 1b7e4e5fd2c73ef479faa8aff2bb3975, type: 2}
+  AgentActions:
+  - {fileID: 11400000, guid: 3dd1cd940c6b78d44b796c7fcb0f295d, type: 2}
+  - {fileID: 11400000, guid: ac1a02b7aa6d89a4eabd37def490a064, type: 2}
+  - {fileID: 11400000, guid: d3463bef15ac36b47b6222976d9ef431, type: 2}
+  - {fileID: 11400000, guid: 9334a5fb6c42da2478cd8fef29a44e5f, type: 2}
+  - {fileID: 11400000, guid: b374dd0b357b22d4ea284bf1f952b07d, type: 2}
+  WorkGoal: {fileID: 0}
+  EatGoal: {fileID: 0}
+  RestGoal: {fileID: 0}
+  AttackGoal: {fileID: 11400000, guid: eb0c352bee6dee94cbd945a33298cc95, type: 2}
+  DefendGoal: {fileID: 11400000, guid: 7d99d369ac060c6438159eadfd1a9520, type: 2}
+  HungerNeedIncrease: 0
+  WorkNeedIncrease: 0
+  RestNeedIncrease: 0
